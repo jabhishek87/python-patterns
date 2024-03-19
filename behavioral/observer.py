@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-from __future__ import print_function
 """http://code.activestate.com/recipes/131499-observer-pattern/"""
 
 

@@ -5,8 +5,6 @@ http://ginstrom.com/scribbles/2007/10/08/design-patterns-python-style/
 Implementation of the iterator pattern with a generator
 """
 
-from __future__ import print_function
-
 
 def count_to(count):
     """Counts by word numbers, up to a maximum of five"""

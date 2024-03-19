@@ -35,9 +35,6 @@ https://sourcemaking.com/design_patterns/facade
 https://fkromer.github.io/python-pattern-references/design/#facade
 http://python-3-patterns-idioms-test.readthedocs.io/en/latest/ChangeInterface.html#facade
 """
-
-
-from __future__ import print_function
 import time
 
 SLEEP = 0.1
