@@ -51,7 +51,8 @@ class AbstractExpert(object):
     def __init__(self, blackboard):
         self.blackboard = blackboard
 
-    @abc.abstractproperty
+    @property
+    @abc.abstractmethod
     def is_eager_to_contribute(self):
         raise NotImplementedError('Must provide implementation in subclass.')
 
