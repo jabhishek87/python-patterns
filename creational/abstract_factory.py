@@ -6,7 +6,7 @@
 """Implementation of the abstract factory pattern"""
 import six
 import abc
-import random
+import secrets
 
 
 class PetShop(object):
@@ -70,7 +70,7 @@ class CatFactory(object):
 # Create the proper family
 def get_factory():
     """Let's be dynamic!"""
-    return random.choice([DogFactory, CatFactory])()
+    return secrets.choice([DogFactory, CatFactory])()
 
 
 # Implementation 2 of an abstract factory

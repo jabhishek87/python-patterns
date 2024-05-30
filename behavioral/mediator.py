@@ -1,9 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """http://web.archive.org/web/20120309135549/http://dpip.testingperspective.com/?p=28"""
-
-import random
 import time
+import secrets
 
 
 class TC:
@@ -65,7 +64,7 @@ class DB:
         print("Inserting the execution begin status in the Database")
         time.sleep(0.1)
         # Following code is to simulate a communication from DB to TC
-        if random.randrange(1, 4) == 3:
+        if secrets.SystemRandom().randrange(1, 4) == 3:
             return -1
 
     def update(self):
